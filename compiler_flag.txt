@@ -1,0 +1,14 @@
+-O3
+-std=c++14
+-stdlib=libc++
+-lc++abi
+-Wl,-rpath=<path>
+-fno-exceptions
+-fno-rtti
+-Wall
+-pedantic
+-Werror
+-isystem <path>
+-pthread
+
+clang++ $(< flag) -o a.out <file> -lbenchmark

@@ -1,0 +1,2 @@
+g++ -g -c test.cpp
+objdump -d -M intel -s test.o

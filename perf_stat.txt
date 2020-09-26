@@ -1,0 +1,10 @@
+perf stat  ./a.out 
+perf record -g ./a.out 
+perf report -g 
+perf report -g 'graph,0.5,caller'
+
+// graph -> show percentage normalize to complete program 
+// like in tree view it happens that time of child is added in parent 
+
+// 0.5 is filter 
+// caller will invert the call graph
