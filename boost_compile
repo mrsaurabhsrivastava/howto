@@ -1,0 +1,1 @@
+g++ check.cpp  -I/home/saurabh/work/cpp/boost_1_61_0  /home/saurabh/work/cpp/boost_1_61_0/stage/lib/libboost_<lib>.a
