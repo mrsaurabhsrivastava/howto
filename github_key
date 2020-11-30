@@ -1,0 +1,2 @@
+ssh-keygen -o -t rsa -C "thinkcpp@gmail.com"
+git clone ssh://git@github.com/thinkcpp/blog.git
